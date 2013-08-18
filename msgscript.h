@@ -12,11 +12,11 @@ char* stressammon = "Warning! Ammonia concentration is in Stress Level measuring
 char* dangerammon = "Warning! Ammonia concentration is in Danger Level measuring ";
 
 // Thresholds
-int T_stress[] = {24,30};
-int T_danger[] = {20,34};
-int H_stress[] = {70,80};
-int H_danger[] = {65,85};
-int A_high[] = {15,25};
+int T_stress[] = {32,33};
+int T_danger[] = {30,34};
+int H_stress[] = {55,75};
+int H_danger[] = {55,85};
+int A_high[] = {5,10};
 
 void const_temp_warning(int val,char* buffer){
   if(val/100 <= T_danger[0]){
